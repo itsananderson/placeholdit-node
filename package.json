@@ -1,0 +1,29 @@
+{
+  "name": "placeholdit",
+  "version": "0.1.0",
+  "description": "Simple CLI node utility that downloads images from placehold.it",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "placeholdit": "./bin/placeholdit-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsananderson/placeholdit-node.git"
+  },
+  "keywords": [
+    "placeholdit",
+    "cli"
+  ],
+  "author": "Will Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsananderson/placeholdit-node/issues"
+  },
+  "homepage": "https://github.com/itsananderson/placeholdit-node",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "placekitten": "^0.3.0"
+  }
+}
