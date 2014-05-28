@@ -1,7 +1,7 @@
 {
   "name": "placeholdit",
-  "version": "0.1.0",
-  "description": "Simple CLI node utility that downloads images from placehold.it",
+  "version": "0.2.0",
+  "description": "Downloads placehold.it images to your machine",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/itsananderson/placeholdit-node",
   "dependencies": {
     "commander": "^2.2.0",
-    "placekitten": "^0.3.0"
+    "placebase": "^0.1.1"
   }
 }
